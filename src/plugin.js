@@ -19,7 +19,7 @@ function withPublicFolderPlugin(nextConfig = {}, composePlugins = {}) {
       Object.assign(newConfig, {
         exportPathMap: async defaultPathMap => {
           await copy('./public', './out')
-          return defaultPathMap
+          return orginalConfig.exportPathMap(defaultPathMap)
         },
       })
     }

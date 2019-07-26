@@ -873,14 +873,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@wearedevx/i18n-tag-wrapper@git+https://daedb446c2bb68ed23012733e51e6ec35bd01f3c:x-oauth-basic@github.com/wearedevx/i18n-tag-wrapper.git":
-  version "1.0.1"
-  resolved "git+https://daedb446c2bb68ed23012733e51e6ec35bd01f3c:x-oauth-basic@github.com/wearedevx/i18n-tag-wrapper.git#15344f60b1ab4e65b604b227ef20e0b26389b96d"
-  dependencies:
-    es2015-i18n-tag "^1.6.0"
-    intl "^1.2.5"
-    lodash "^4.17.14"
-
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -2108,11 +2100,6 @@ error-ex@^1.2.0:
   dependencies:
     is-arrayish "^0.2.1"
 
-es2015-i18n-tag@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/es2015-i18n-tag/-/es2015-i18n-tag-1.6.0.tgz#c6c791b8810c1d26e093d3a19c34c05bb7647c8e"
-  integrity sha512-VXpTiLjQgCq95NLveGUbFtzRsHa/0AhuKhD0rngC2fe+aClsZZMocD238BzvRdO9QIa6aMJlUEPaqpXiPoc1Iw==
-
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -2788,11 +2775,6 @@ inquirer@^6.4.1:
     string-width "^2.1.0"
     strip-ansi "^5.1.0"
     through "^2.3.6"
-
-intl@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/intl/-/intl-1.2.5.tgz#82244a2190c4e419f8371f5aa34daa3420e2abde"
-  integrity sha1-giRKIZDE5Bn4Nx9ao02qNCDiq94=
 
 invariant@^2.2.2:
   version "2.2.4"
